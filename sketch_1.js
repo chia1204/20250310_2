@@ -41,11 +41,11 @@ function draw() {
   text(`答對題數: ${correctAnswers}`, 10, 30);
   text(`答錯題數: ${incorrectAnswers}`, 10, 60);
 
-  if (quizFinished) {
-    textAlign(CENTER);
-    textSize(30);
-    fill(0);
-    text(`測驗結束！答對題數: ${correctAnswers}，答錯題數: ${incorrectAnswers}`, windowWidth / 2, windowHeight / 2 + 100);
+  // if (quizFinished) {
+  //   textAlign(CENTER);
+  //   textSize(30);
+  //   fill(0);
+  //   text(`測驗結束！答對題數: ${correctAnswers}，答錯題數: ${incorrectAnswers}`, windowWidth / 2, windowHeight / 2 + 100);
   } else {
     // 顯示題目
     fill(0); // 題目顏色設置為黑色
@@ -57,7 +57,7 @@ function draw() {
     // 顯示名字，字體大小設置為20px
     fill(0)
     textSize(20);
-    text("413730754 邱佳儀", windowWidth / 2 - 475, windowHeight - 800);
+    text("413730754 邱佳儀", 10,90);
   }
 }
 
